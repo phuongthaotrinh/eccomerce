@@ -1,6 +1,6 @@
-import { NextRequest, NextResponse } from "next/server"
-import { initialize as initializeProductModule } from "@medusajs/product"
-import { notFound } from "next/navigation"
+import { initialize as initializeProductModule } from '@medusajs/product';
+import { NextRequest, NextResponse } from 'next/server';
+import { notFound } from 'next/navigation';
 
 /**
  * This endpoint uses the serverless Product Module to list and count all product collections.

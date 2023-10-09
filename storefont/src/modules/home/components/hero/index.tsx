@@ -21,6 +21,7 @@ const Hero = () => {
 
                 <Image
                     src='/hero.webp'
+
                     loading="eager"
                     priority={true}
                     quality={90}
@@ -28,7 +29,7 @@ const Hero = () => {
                     className="absolute inset-0"
                     draggable="false"
                     fill
-                    sizes="100vw"
+                    // sizes="100vw"
                     style={{
                         objectFit: "cover",
                     }}

@@ -36,7 +36,7 @@ const DropdownMenu = () => {
                 )}
                 onClick={() => push("/store")}
               >
-                Store
+                <b>Store</b>
               </Popover.Button>
             </Link>
 
